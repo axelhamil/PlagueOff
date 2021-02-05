@@ -1,16 +1,5 @@
 # Simple MVC
 
-## Description
-
-This repository is a simple PHP MVC structure from scratch.
-
-It uses some cool vendors/libraries such as Twig and Grumphp.
-For this one, just a simple example where users can choose one of their databases and see tables in it.
-
-It serves as a basis for an application that was developpped in order to help people from the 14th century to avoid the great plague.
-This application, called "Plague Off", lets the users run a vocal message that tells someone that is too close to them to back the f*** off.
-The vocal message can have 3 different levels of rudeness.
-
 "Plague Off" uses some cool APIs as FOAAS or complimentr. 
 
 ### Check on Travis
@@ -20,8 +9,6 @@ The vocal message can have 3 different levels of rudeness.
 3. Look for your project in search bar on the left,
 4. As soon as your repository have a `.travis.yml` in root folder, Travis should detect it and run test.
 5. Configure Travis as described in the screenshot below, this is needed to avoid performance issues.
-
-> You can watch this screenshot to see minimum mandatory configuration : ![basic config](http://images.innoveduc.fr/symfony4/travis-config.png)
 
 ### Configure you repository - Settings options
 
@@ -62,7 +49,3 @@ If you develop on Windows, you should edit you git configuration to change your 
 
 * Home page at [localhost:8000/](localhost:8000/)
 * Info page at [localhost:8000/plagueOff/info](localhost:8000/plagueOff/info)
-
-## How does URL routing work ?
-
-![Simple MVC.png](https://raw.githubusercontent.com/WildCodeSchool/simple-mvc/master/Simple%20-%20MVC.png)
